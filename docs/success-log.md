@@ -23,4 +23,6 @@
 [SUCCESS][UTC 2025-11-14T12:43:00Z | AST 2025-11-14T15:43:00+0300] Added NPM proxy host for gita.dbm.com.sa, issued Let's Encrypt certificate id=6, forced SSL, and verified HTTPS with curl --resolve gita.dbm.com.sa:443:127.0.0.1 https://gita.dbm.com.sa showing HTTP/2 200.
 [SUCCESS][UTC 2025-11-14T12:50:00Z | AST 2025-11-14T15:50:00+0300] Bootstrapped /opt/dbm_docker/dbm_docker_server git repo (README, docs/success-log.md, docs/deployment_playbook.md) to centralize methodology, synced entries from /opt/logs/dbm_success_2025-11-14.log, and documented next publishing steps to Gitea + GitHub.
 [SUCCESS][UTC 2025-11-14T12:54:00Z | AST 2025-11-14T15:54:00+0300] Added /opt/dbm_docker/dbm_docker_server/docs/index.md plus README pointers so every `/opt` directory, compose file, and secret location is indexed; success log synchronized with canonical file.
+[SUCCESS][UTC 2025-11-14T13:07:30Z | AST 2025-11-14T16:07:30+0300] Created repo gita.dbm.com.sa/dbmadmin/dbm_docker_server, wired remote `gitea`, and pushed main commit cbfcd94 so on-prem documentation stays versioned.
+[SUCCESS][UTC 2025-11-14T13:24:10Z | AST 2025-11-14T16:24:10+0300] Created GitHub repo digitalbuildmasters/dbm_docker_server via PAT, added `github` remote, and pushed main to keep public mirror in sync with Gitea.
 ```

@@ -8,6 +8,7 @@ Production notes for the Digital Build Masters Docker host that runs Odoo19, int
 - `docs/success-log.md`: Chronological log copied from `/opt/logs/dbm_success_2025-11-14.log`
 - `docs/deployment_playbook.md`: Playbook with clear steps for each successful deployment
 - `docs/index.md`: Up-to-date map of `/opt` directories, services, and entry points
+- `docs/todo.md`: Consolidated backlog for outstanding infrastructure work
 
 ## Environment Summary
 
@@ -30,6 +31,7 @@ Production notes for the Digital Build Masters Docker host that runs Odoo19, int
 - `pxy.dbm.com.sa` SSL issued and points to NPM admin panel
 - Gitea stack running at `https://gita.dbm.com.sa` behind NPM
 - Infrastructure index (`docs/index.md`) added so every path under `/opt` is inventoried and easy to audit
+- Task tracker (`docs/todo.md`) highlights Portainer exposure + automation items to keep future work visible
 
 ## Next Steps
 
