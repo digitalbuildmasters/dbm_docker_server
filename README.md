@@ -7,6 +7,7 @@ Production notes for the Digital Build Masters Docker host that runs Odoo19, int
 - `README.md`: High-level overview (this file)
 - `docs/success-log.md`: Chronological log copied from `/opt/logs/dbm_success_2025-11-14.log`
 - `docs/deployment_playbook.md`: Playbook with clear steps for each successful deployment
+- `docs/index.md`: Up-to-date map of `/opt` directories, services, and entry points
 
 ## Environment Summary
 
@@ -25,9 +26,10 @@ Production notes for the Digital Build Masters Docker host that runs Odoo19, int
 
 - ZATCA QR timestamp fix deployed to `dbm_odoo19_app`
 - Internal nginx service added for Odoo19 and fronted by NPM with LE cert `npm-2`
-- n8n stack deployed with Postgres + Redis, hardened basic-auth, and Lets Encrypt cert on `n8n.dbm.com.sa`
+- n8n stack deployed with Postgres + Redis, hardened basic-auth, and Let's Encrypt cert on `n8n.dbm.com.sa`
 - `pxy.dbm.com.sa` SSL issued and points to NPM admin panel
 - Gitea stack running at `https://gita.dbm.com.sa` behind NPM
+- Infrastructure index (`docs/index.md`) added so every path under `/opt` is inventoried and easy to audit
 
 ## Next Steps
 
