@@ -4,11 +4,7 @@ Status board for outstanding work on the `/opt/dbm_docker` host. Update this lis
 
 ## High Priority
 
-1. **Portainer exposure**  
-   - Bring up `apps/portainer/docker-compose.yml` and attach to `dbm_reverse_proxy`.  
-   - Create NPM proxy host `dp.dbm.com.sa` with Let’s Encrypt cert and baseline auth controls.  
-   - Log the deployment (success log + index update) once HTTPS is verified.
-2. **Multi-repo publishing plan**  
+1. **Multi-repo publishing plan**
    - Confirm which additional projects (Odoo custom modules, automation scripts, etc.) need mirrors on Gitea + GitHub.  
    - Define naming conventions, remotes, and credential storage for each.  
    - Capture the workflow in `docs/deployment_playbook.md` when finalized.
@@ -27,3 +23,4 @@ Status board for outstanding work on the `/opt/dbm_docker` host. Update this lis
 - ✅ Created `docs/index.md` to map every `/opt` path, service, and secret.  
 - ✅ Pushed `dbm_docker_server` to `gita.dbm.com.sa/dbmadmin/dbm_docker_server` and `github.com/digitalbuildmasters/dbm_docker_server`.  
 - ✅ Logged all successes (Odoo, n8n, NPM, Gitea, documentation) with UTC + AST timestamps.
+- ✅ Deployed Portainer CE 2.33.3 with HTTPS access at dp.dbm.com.sa, reinitialized local Docker endpoint.
